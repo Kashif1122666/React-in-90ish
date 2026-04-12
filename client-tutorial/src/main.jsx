@@ -10,12 +10,14 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import ConditonaionalRendering from "./practice/conditionalRendering.jsx";
+import Todo from "./practice/Todo.jsx";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* ⏸️ WORKSHOP STEP 5: Wrap in ThemeProvider */}
     {/* ⏸️ WORKSHOP STEP 1: Wrap in BrowserRouter */}
     {/* <App />  */}
-    <ConditonaionalRendering />
+    {/* <ConditonaionalRendering /> */}
+    <Todo/>
   </React.StrictMode>
 );
