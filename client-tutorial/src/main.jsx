@@ -11,6 +11,8 @@ import App from "./App.jsx";
 import "./index.css";
 import ConditonaionalRendering from "./practice/conditionalRendering.jsx";
 import Todo from "./practice/Todo.jsx";
+import FormPractice from "./practice/FormPractice.jsx";
+import UseEffectPractice from "./practice/UseEffectPractice.jsx";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -18,6 +20,8 @@ createRoot(document.getElementById("root")).render(
     {/* ⏸️ WORKSHOP STEP 1: Wrap in BrowserRouter */}
     {/* <App />  */}
     {/* <ConditonaionalRendering /> */}
-    <Todo/>
+    {/* <Todo/> */}
+    {/* <FormPractice/> */}
+    <UseEffectPractice/>  
   </React.StrictMode>
 );
